@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "research-kit",
+  "description": "Systematic research skill for Claude Code: scope, collect, analyze, synthesize.",
+  "owner": {
+    "name": "leo1oel",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "research",
+      "description": "Use when investigating an unfamiliar domain, evaluating options, or preparing a research deliverable.",
+      "version": "1.0.0",
+      "category": "development",
+      "source": "./",
+      "skills": [
+        "./skills/research"
+      ],
+      "homepage": "https://github.com/leo1oel/ResearchKit"
+    }
+  ]
+}
